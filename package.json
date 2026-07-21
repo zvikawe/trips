@@ -5,21 +5,20 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
-    "next": "latest",
+    "motion": "latest",
+    "next": "16.2.10",
     "react": "latest",
     "react-dom": "latest",
-    "motion": "latest"
+    "typescript": "^5.9.0",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "latest",
-    "@types/node": "latest",
-    "@types/react": "latest",
-    "@types/react-dom": "latest",
-    "tailwindcss": "latest",
-    "typescript": "latest"
+    "tailwindcss": "latest"
   }
 }
