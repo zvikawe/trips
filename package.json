@@ -8,16 +8,14 @@
     "start": "next start"
   },
   "dependencies": {
-    "motion": "latest",
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest"
-  },
-  "devDependencies": {
     "@tailwindcss/postcss": "latest",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
+    "motion": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
     "tailwindcss": "latest",
     "typescript": "latest"
   }
