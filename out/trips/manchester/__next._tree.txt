@@ -1,0 +1,2 @@
+:HL["/_next/static/chunks/0k4x_72xfv8c8.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"trips","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"manchester","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"52VuW4uatGeUH-80uVt7_"}
