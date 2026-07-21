@@ -1,51 +1,9 @@
-# Journeys — Zvika & Amit
+# Travel site data refactor
 
-A production-ready Next.js travel journal with seven static trip pages, motion effects, saved booking checklists and private browser notes.
+1. Replace your existing `data/trips.ts` with the file in this package.
+2. Upload the new `data/trips/` folder to the same `data` directory.
+3. Commit the changes in GitHub. Vercel should redeploy automatically.
 
-## Run locally
+Existing imports such as `import { trips, getTrip } from "@/data/trips"` will continue to work.
 
-```bash
-npm install
-npm run dev
-```
-
-Open `http://localhost:3000`.
-
-## Deploy to Vercel
-
-1. Create a new GitHub repository.
-2. Upload this entire project.
-3. In Vercel, select **Add New → Project**.
-4. Import the GitHub repository.
-5. Keep the detected framework as **Next.js**.
-6. Click **Deploy**.
-
-The project is configured with `output: "export"`, so it also creates a static `out` directory after:
-
-```bash
-npm run build
-```
-
-## Edit trip details
-
-All itinerary content is in:
-
-```text
-data/trips.ts
-```
-
-Each trip has its own entry with dates, hero image, itinerary, booking reminders and notes.
-
-## Included
-
-- Manchester
-- Croatia
-- Newbury
-- Chichester
-- Lake District
-- Lake Garda
-- Thailand
-
-## Photography
-
-Hero images are loaded from Unsplash URLs. Replace any `hero` value in `data/trips.ts` with your own hosted photograph later.
+Included updates: Manchester Chetham’s tour at 15:30, Hawksmoor at 17:45, Fun Home at 19:30, and the Lake District correction from Hawse End to Hawes End.
