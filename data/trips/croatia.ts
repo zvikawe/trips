@@ -7,7 +7,7 @@ export const croatia = {
     "endDate": "2026-08-16",
     "eyebrow": "Adriatic summer",
     "tagline": "Historic towns, island scenery and long evenings by the sea.",
-    "hero": "https://images.unsplash.com/photo-1555990538-1e6c6f80f28f?auto=format&fit=crop&w=2200&q=90",
+    "hero": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=2200&q=90",
     "palette": [
       "#0b6174",
       "#3da4ad",
