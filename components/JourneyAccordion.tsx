@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import type { Trip } from "@/data/trips";
 
 export default function JourneyAccordion({ trip, index }: { trip: Trip; index: number }) {
-  const [open, setOpen] = useState(index === 0);
+  const [open, setOpen] = useState(false);
   const [openDay, setOpenDay] = useState(0);
   const bookingKey = `journeys-bookings-${trip.slug}`;
   const noteKey = `journeys-notes-${trip.slug}`;
